@@ -4,11 +4,11 @@ html{
 }
 .abutton{
 	margin-right: 30px;
-	width: 200px;
+	
 	height: 25px;
 	padding: 23px;
 	text-align: center;
-	display: block;
+	display: inline-block;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 24px;
 }
@@ -31,7 +31,7 @@ html{
 	margin-top: 10px;
 	z-index: 5;
 }
-@media(max-width: 767px){
+@media(max-width: 930px){
 	.header_burger{
 		display:block;
 		position: relative;
@@ -117,6 +117,7 @@ html{
 	padding: 0;
 }
 header{
+	position: relative;
 	width: 100%;
 	height: 70px;
 	background: #4f9a5b;
@@ -145,5 +146,9 @@ header{
 .abutton:active{
 	background: #52a361;
 	opacity: 35%;
+	
+}
+.content{
+	display: inline-block;
 	
 }
