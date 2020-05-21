@@ -45,7 +45,7 @@ html{
 		left: 0;
 		height: 100%;
 		width: 100%;
-		background: linear-gradient(225deg, #52a361,  #52A36E, #52A37D,  #52A37D, #52A36E, #4f9a5b, #52a361);
+		background: linear-gradient(225deg, #52a361, #4f9a5b,  #52A36E, #52A37D,  #52A37D, #52A36E, #4f9a5b, #52a361);
 		z-index: 2;
 		opacity: 100%;
 		transition: 0.5s;
