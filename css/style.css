@@ -252,7 +252,7 @@ header{
     cursor: pointer;
 }
 footer{
-	background: linear-gradient(#52a361, #4f9a5b,  #52A36E, #52A37D,  #52A37D, #52A36E, #4f9a5b, #52a361);
+	background-color: #52a361;
 	position: absolut;
 	bot: 0;
 	left: 0;
