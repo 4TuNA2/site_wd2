@@ -34,7 +34,7 @@ html{
 }
 @media(max-width: 1000px){
 	body.lock{
-		overflow: hiden;
+		overflow: hidden;
 	}
 	.header_burger{
 		display:block;
@@ -253,7 +253,7 @@ header{
 }
 footer{
 	background-color: #52a361;
-	position: absolut;
+	position: absolute;
 	bot: 0;
 	left: 0;
 	width: 100%;
