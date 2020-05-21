@@ -26,6 +26,7 @@
 			</ul>			
 		</div>
 </header>
+
 <div id="block-for-slider">
         <div id="viewport">
             <ul id="slidewrapper">
@@ -48,6 +49,7 @@
             </ul>
         </div>
     </div>	
+    <hr color="green" size="1px">
 <div id="main">
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -103,12 +105,16 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <h1> </h1>
 </div>
 
+<footer>
+	<p><img src="img/logo1.png" height="150px" width=250px; ></p>
+	</footer>
 
 
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('.header_burger').click(function(event){
 			$('.header_burger,.topmenu').toggleClass('active');
+			$('body').toggleClass('lock');
 		
 	});
 });
